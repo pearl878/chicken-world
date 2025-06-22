@@ -415,7 +415,7 @@ color: white;
     }
 
     .recipe-card img {
-      width: 50%;
+      width: 1000%;
       height: 180px;
       object-fit: cover;
     }
@@ -525,4 +525,16 @@ font-size: 10px;
   color: white;
  font-size: 10px;
 
+}
+@media screen(max-width:735px;) {
+  .trending-section{
+    display: grid;
+    grid-template-columns: 48% 48%;
+  }
+}
+@media screen(max-width:550px;){
+  .recipes-grid{
+    display: grid;
+    grid-template-columns: 48% 48%;
+  }
 }
