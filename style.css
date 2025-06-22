@@ -54,7 +54,7 @@ align-items: center;
 justify-content: left;
 padding-left: 15px;
 padding-top: 120px;
-
+background-repeat: no-repeat;
  position: relative; 
 }
 .pe h1{
