@@ -15,6 +15,23 @@ nav{
     padding-right: 20px;
     align-items: center;
 }
+@media screen (max-width:735px;) {
+  .trending-section{
+    display: grid;
+    grid-template-columns: 48% 48%;
+  }
+}
+@media screen(max-width:550px;){
+  .recipes-grid{
+    display: grid;
+    grid-template-columns: 48% 48%;
+  }
+}
+@media(max-width:670px){
+  nav ul{
+    display: none;
+  }
+}
 .food{
     display: flex;
 }

@@ -118,6 +118,23 @@ border-radius: 100%;
   font-weight: bold;
   cursor: pointer;
 }
+@media screen (max-width:735px;) {
+  .trending-section{
+    display: grid;
+    grid-template-columns: 48% 48%;
+  }
+}
+@media screen(max-width:550px;){
+  .recipes-grid{
+    display: grid;
+    grid-template-columns: 48% 48%;
+  }
+}
+@media(max-width:670px){
+  nav ul{
+    display: none;
+  }
+}
 .footer{
       width: 60%;
      position: relative;
