@@ -1,0 +1,341 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family:helvetica;
+    padding-left: 10px;
+    
+}
+nav{
+    background-color: black;
+    color: white;
+    height: 100px;
+    justify-content: space-between;
+    display: flex;
+    padding-left: 20px;
+    padding-right: 20px;
+    align-items: center;
+}
+.food{
+    display: flex;
+}
+nav h1{
+    font-family: verdana;
+    font-size: 45px;
+    color: white;
+}
+nav ul{
+   
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+nav ul li{
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+nav li a:hover{
+    text-decoration: underline aqua;
+    transition: 0.3 ease;
+}
+ nav strong{
+color: orange;
+font-size: 50px;
+border-radius: 100%;
+}
+.pe{
+    background: url(https://img.sndimg.com/food/image/upload/f_auto,c_thumb,q_55,w_1280,ar_16:9/v1/img/recipes/36/21/99/7YOiCPxdTkeIVDQ8e9w2_0S9A3939.jpg) ;
+overflow: hidden;
+width: 100vw;
+height: 80vh;
+align-items: center;
+justify-content: left;
+padding-left: 15px;
+padding-top: 120px;
+background-repeat: no-repeat;
+ position: relative; 
+}
+.pe h1{
+    color: white;
+    font-size:55px;
+    z-index: 10;
+    position: relative;
+    padding-top: 20px;
+}
+.pe button{
+background-color: orange;
+border-radius: 7px;
+ align-items: center;
+ color: rgb(0, 0, 0);
+ height: 60px;
+ width: 200px;
+ z-index: 10;
+ position: relative;
+}
+.pes{
+  background: url(https://img.sndimg.com/food/image/upload/f_auto,c_thumb,q_55,w_1280,ar_16:9/v1/img/upload/editorial/how-to-cold-brew/cold-brew-coffee-beauty-2.jpg) ;
+  overflow: hidden;
+  width: 100vw;
+  height: 80vh;
+  align-items: center;
+  justify-content: left;
+  padding-left: 15px;
+  padding-top: 120px;
+  background-repeat: no-repeat;
+   position: relative; 
+}
+.pes h1{
+  color: white;
+    font-size:55px;
+    z-index: 10;
+    position: relative;
+}
+.pes button{
+  background-color: orange;
+border-radius: 7px;
+ align-items: center;
+ color: rgb(0, 0, 0);
+ height: 60px;
+ width: 200px;
+ z-index: 10;
+ position: relative;
+}
+.hero {
+    background-image: url("963bd60c-0d66-4426-9292-9fdc12a4b494.png");
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    position: relative;
+  }
+
+  /* White box over image */
+  .hero-text {
+    background-color: white;
+    padding: 40px 30px;
+    width: 90%;
+    max-width: 1000px;
+    position: absolute;
+    bottom: -80px;
+    left: 50%;
+    transform: translateX(-50%);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  }
+
+  .hero-text h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+
+  .hero-text p {
+    font-size: 16px;
+    color: #444;
+  }
+.craving-section {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+
+  .cards {
+    position: relative;
+    width: 300px;
+    height: 350px;
+    border-radius: 8px;  
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    background-color: #000;
+    color: #fff;
+    cursor: pointer;
+    transition: ease 0.3s;
+  }
+
+  .cards:hover {
+    transform: scale(1.03);
+  }
+
+  .cards img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.9;
+  }
+
+  .card-content {
+    position: absolute;    
+    bottom: 0;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.8), transparent);
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+
+  .card-content p {
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 0 0 5px 0;
+  }
+
+  .card-content h3 {
+    margin: 0;
+    font-size: 20px;
+    line-height: 1.3;
+  }
+  
+  @media(max-width:670px){
+    nav ul{
+      display: none;
+    }
+  }
+  .feature-container {
+    display: flex;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    margin-bottom: 40px;
+    margin-top: 30px;
+  }
+  
+  .feature-image {
+    flex: 1;
+  }
+  .feature-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .feature-text {
+    flex: 1;
+    padding: 30px;
+    background-color: #fff;
+  }
+  .feature-text small {
+    text-transform: uppercase;
+    color: #666;
+    font-weight: bold;
+  }
+  .feature-text h2 {
+    margin: 10px 0;
+    font-size: 24px;
+  }
+  .feature-text p {
+    color: #444;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  .feature-container {
+    display: flex;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    margin-bottom: 40px;
+  }
+  
+  .feature-image {
+    flex: 1;
+  }
+  .feature-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .feature-text {
+    flex: 1;
+    padding: 30px;
+    background-color: #fff;
+  }
+  .feature-text small {
+    text-transform: uppercase;
+    color: #666;
+    font-weight: bold;
+  }
+  .feature-text h2 {
+    margin: 10px 0;
+    font-size: 24px;
+  }
+  .feature-text p {
+    color: #444;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  .fan-favorites {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .fan-favorites-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+  .fan-favorites-header h2 {
+    font-size: 24px;
+    margin: 0;
+  }
+
+  .fan-favorites-header a {
+    text-decoration: none;
+    color: #0077cc;
+    font-weight: bold;
+  }
+  .recipes-grid {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
+    gap: 20px;
+  }
+
+  .recipe-card {
+    border: 1px solid #eee;
+    border-radius: 5px;
+    overflow: hidden;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    transition: transform 0.2s;
+  }
+
+  .recipe-card:hover {
+    transform: translateY(-5px);
+  }
+
+  .recipe-card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+  }
+
+  .recipe-card h3 {
+    font-size: 16px;
+    text-align: center;
+    padding: 10px;
+    margin: 0;
+    text-transform: uppercase;
+  }
+  .ds img{
+    height: 50%;
+    width: 100%;
+  }
+  .gh h1{
+    font-size: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .gh p{
+    font-size: 18px;
+    color: grey;
+    padding-top: 15px;
+    padding-bottom: 20px;
+  }
+.ty h2{
+  padding-top: 30px;
+  font-size: 35px;
+  margin-bottom: 20px;
+}
